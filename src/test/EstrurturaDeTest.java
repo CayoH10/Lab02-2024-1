@@ -31,7 +31,6 @@ public class EstrurturaDeTest {
         assertTrue("Não encontrado " + 1, e.buscaElemento(1));
         assertTrue("Não encontrado " + 2, e.buscaElemento(2));
         assertTrue("Não encontrado " + 3, e.buscaElemento(3));
-
         assertFalse("Encontrado " + 5, e.buscaElemento(5));
         assertFalse("Encontrado " + -1, e.buscaElemento(-1));
     }
@@ -46,7 +45,6 @@ public class EstrurturaDeTest {
         assertTrue("Não encontrado " + 1, e.buscaElemento(1));
         assertTrue("Não encontrado " + 2, e.buscaElemento(2));
         assertTrue("Não encontrado " + 3, e.buscaElemento(3));
-
         e.remove(3);
         e.remove(5);
         e.remove(-1);
